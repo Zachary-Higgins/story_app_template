@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "story-engine": "github:Zachary-Higgins/story_app#v0.0.1-test"
+    "story-engine": "github:Zachary-Higgins/story_app#semver:*"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
