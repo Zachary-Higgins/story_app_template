@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Clear TypeScript cache
+        run: rm -rf .tsbuildinfo tsconfig.tsbuildinfo 2>/dev/null || true
+
       - name: Lint
         run: npm run lint --if-present
 

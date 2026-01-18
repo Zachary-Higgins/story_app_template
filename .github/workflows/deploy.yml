@@ -36,11 +36,13 @@ jobs:
 
       - name: Build template
         run: npm run build
+        env:
+          GITHUB_PAGES: 'true'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './build'
 
   deploy:
     environment:
