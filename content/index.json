@@ -1,0 +1,12 @@
+{
+  "stories": [
+    {
+      "id": "tides-of-the-blue",
+      "configPath": "/stories/tides-of-the-blue.json"
+    },
+    {
+      "id": "voyage-of-light",
+      "configPath": "/stories/voyage-of-light.json"
+    }
+  ]
+}
