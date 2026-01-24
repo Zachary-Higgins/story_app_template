@@ -1,7 +1,7 @@
 {
   "name": "story_app_template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "story-engine": "github:Zachary-Higgins/story_app#semver:*"
+    "story-engine": "github:Zachary-Higgins/story_app#v0.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
